@@ -4,7 +4,7 @@
 ################
 import pytest
 
-from src.ejemplo1 import suma_digitos, signo
+#from src.ejemplo1 import suma_digitos, signo
 
 
 """
