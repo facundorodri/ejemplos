@@ -4,10 +4,7 @@
 ################
 import pytest
 
-try:
-    from src.ejemplo1 import suma_digitos, signo
-except:
-    from ejemplo1 import suma_digitos, signo
+from src.ejemplo1 import suma_digitos, signo
 
 
 """
