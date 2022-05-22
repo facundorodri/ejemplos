@@ -8,6 +8,7 @@ A partir de un número entero.
 Diseñar un algoritmo que permita mostrar la suma de los dígitos del número ingresado considerando el signo.
 """
 
+
 def signo(numero):
     """
     Devuelve un número entero en relación con el signo del número indicado
@@ -33,11 +34,11 @@ def suma_digitos(numero):
     sgn = signo(numero)
     numero = abs(numero)
     suma = 0
-    while numero >0:
-      digito = numero  % 10
-      cociente = numero // 10
-      suma = suma + digito
-      numero  = cociente
+    while numero > 0:
+        digito = numero % 10
+        cociente = numero // 10
+        suma = suma + digito
+        numero = cociente
     suma = suma * sgn
     return suma
 
@@ -51,6 +52,6 @@ def principal():
     suma = suma_digitos(un_numero)
     print(f"la suma de los dígitos de {un_numero} es {suma}")
 
+
 if __name__ == "__main__":
     principal()
-
